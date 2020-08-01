@@ -19,8 +19,13 @@ h4 {
 
 #image {
     /*Makes the image resize to the size of the window*/
-    width: 100%;
+    display: inline-block;
+    max-width: 100%;
     height: auto;
+}
+
+#img-div {
+    text-align: center;
 }
 
 #img-caption {
